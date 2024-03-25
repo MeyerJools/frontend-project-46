@@ -8,3 +8,6 @@ program
 
   program.parse(process.argv);
 
+  if (program.helpOption) {
+    console.log('какая-то справка');
+  };
